@@ -1,0 +1,49 @@
+img {
+    height: 235px;
+    width: auto;
+    float: right;
+}
+
+h1,
+nav {
+    text-align: center;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: 400;
+}
+
+body {
+    background: skyblue;
+    color: white;
+}
+
+nav,
+h2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+}
+
+nav li {
+    display: inline-block;
+}
+
+body {
+    margin: 20px;
+    border: 3px solid limegreen;
+    padding: 20px;
+}
+
+a:link {
+    color: limegreen;
+}
+
+li {
+    border-right: 1px solid black;
+    padding: 0 3px;
+}
+
+li:last-of-type {
+    border: none;
+}
