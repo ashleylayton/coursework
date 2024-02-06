@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+article,
+aside,
+section,
+footer {
+    background: lightgray;
+    border: 1px solid gray;
+}
+
+header,
+footer {
+    height: 75px;
+    width: 100%;
+}
+
+article {
+    height: 100px;
+    width: 100%;
+}
+
+aside,
+section {
+    height: 150px;
+    float: left;
+}
+
+aside {
+    width: 40%;
+}
+
+section {
+    width: 60%;
+}
+
+footer {
+    clear: both;
+}
