@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+footer,
+div,
+section {
+    background-color: lightgray;
+    border: 1px solid gray;
+}
+
+header,
+footer {
+    height: 75px;
+    width: 100%;
+    clear: both;
+}
+
+div {
+    height: 100px;
+    width: 33.3333%;
+}
+
+section {
+    height: 150px;
+    width: 50%;
+}
+
+div, section {
+    float: left;
+}
